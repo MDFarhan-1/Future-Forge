@@ -1,0 +1,64 @@
+# Node modules for client and server
+/client/node_modules/
+/server/node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+/server/.env
+/server/.env.local
+/server/.env.*.local
+
+# Build outputs
+/client/build/
+dist/
+build/
+
+# Cache directories
+.cache/
+.next/
+out/
+.vscode/
+
+# Dependency directories
+/.pnp
+.pnp.js
+/.yarn
+
+# MongoDB data and storage files
+/data/db/
+data/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage directories (for testing)
+coverage/
+.nyc_output/
+
+# IDE specific files
+.idea/
+*.sublime-workspace
+
+# MacOS files
+.DS_Store
+
+# ESLint and Prettier files
+.eslintcache
+.prettiercache
+
+# Temporary files
+*.swp
+*.temp
+
+# Optional npm package lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml

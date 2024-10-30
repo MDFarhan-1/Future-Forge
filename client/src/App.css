@@ -1,0 +1,38 @@
+.app-container {
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.loading {
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 10px;
+    animation: loadingAnimation 1.5s infinite;
+}
+
+@keyframes loadingAnimation {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+}
+
+.fade-enter {
+    opacity: 0;
+    transform: scale(0.95);
+}
+
+.fade-enter-active {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 300ms, transform 300ms;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit-active {
+    opacity: 0;
+    transition: opacity 300ms;
+}
