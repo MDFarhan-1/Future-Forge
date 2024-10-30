@@ -20,8 +20,8 @@ const Home = () => {
                     <Link to="/career-guidance" className="home-link">
                         Career Guidance
                     </Link>
-                    <Link to="/progress" className="home-link">
-                        My Progress
+                    <Link to="/roadmaps" className="home-link">
+                        My RoadMaps
                     </Link>
                 </div>
 

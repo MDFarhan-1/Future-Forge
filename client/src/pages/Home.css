@@ -57,6 +57,8 @@
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
     opacity: 0;
     animation: fadeInButton 2.5s ease forwards 1s;
+    margin: 3px;
+    /* gap: 20rem;  */
 }
 
 .chat-button {

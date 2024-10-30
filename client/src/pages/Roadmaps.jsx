@@ -3,10 +3,10 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import CreateRoadmapModal from "./CreateRoadmapModal";
 import { useAuth } from "../context/AuthContext";
-import "./Progress.css"; 
+import "./Roadmaps.css"; 
 import { FaTrash } from "react-icons/fa"; 
 
-const Progress = () => {
+const Roadmap = () => {
   const [roadmapCategories, setRoadmapCategories] = useState([]);
   const [showModal, setShowModal] = useState(false);
   const [isLoading, setIsLoading] = useState(false); 
@@ -92,4 +92,4 @@ const Progress = () => {
   );
 };
 
-export default Progress;
+export default Roadmap;

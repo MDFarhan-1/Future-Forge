@@ -9,7 +9,7 @@ const generateLearningPlan = async (req, res) => {
     const daysPerRequest = 7; 
     let currentDay = 1;
     const allTasks = [];
-    const maxRetries = 5; 
+    const maxRetries = 2; 
 
     const generateTasks = async (attempt = 1) => {
         const prompt = `

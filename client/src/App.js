@@ -6,7 +6,7 @@ import Home from './pages/Home';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import CareerGuidance from './pages/CareerGuidance';
-import Progress from './pages/Progress';
+import Roadmap from './pages/Roadmaps';
 import RoadmapCategory from './pages/RoadmapCategory';
 import ChatbotPage from "./pages/Chatbot";
 import ErrorBoundary from './components/ErrorBoundary'; // Custom error boundary
@@ -39,8 +39,8 @@ const App = () => {
                             element={<ErrorBoundary><CareerGuidance /></ErrorBoundary>}
                         />
                         <Route
-                            path="/progress"
-                            element={<ProtectedRoute element={<ErrorBoundary><Progress /></ErrorBoundary>} />}
+                            path="/roadmaps"
+                            element={<ProtectedRoute element={<ErrorBoundary><Roadmap /></ErrorBoundary>} />}
                         />
                         <Route
                             path="/progress/:category"
